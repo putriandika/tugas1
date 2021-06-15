@@ -1,0 +1,110 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color:  #00bfff;
+}
+
+.login-box{
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: darkcyan;
+    box-shadow: 5px 5px 5px ;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 5px  #1082a8;
+}
+
+.login-box h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #00bfff;
+    display: flex;
+    align-items: center;
+}
+
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: darkcyan;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid #00bfff;
+    color: darkcyan;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    border: none;
+    background-color:  #00bfff;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #1082a8;
+}
+
+h6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.forgot{
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+}
+
+@media (max-width:700px) {
+    .login-box{
+        width: 50%;
+    }
+    .login-box h1{
+        font-size: 30px;
+    }
+    .textbox{
+        width: 70%;
+        margin-left: 16%;
+    }
+    .btn{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
